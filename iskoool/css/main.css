@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    --mainblue:#0E70C7;
+    --footerblue:#24324A;
+}
+body{
+    font-size: 16px;
+    /* line-height: 26px; */
+    font-weight: 400;
+    background: #fff;
+    
+}
+/* top color section */
+.color1{background-color: #24324A;height:5px;width: 100%;}
+.color2{background-color: #1862e0;height:5px;width: 100%;}
+.color3{background-color: #eb5475;height:5px;width: 100%;}
+.color4{background-color: #34a064;height:5px;width: 100%;}
+.color5{background-color: #3197d1;height:5px;width: 100%;}
+.color6{background-color: #751ebd;height:5px;width: 100%;}
+
+.soc-icons{
+  height: 8vh;
+  padding: 11px 0  ;
+  background-color: var(--mainblue);
+  overflow: hidden;
+}
+.left-icons{
+   
+   margin-left: -20px;
+}
+.left-icons ul {
+    display: flex;
+    justify-content: flex-start;
+}
+ul {list-style-type: none;}
+li a{padding-left: 15px;text-decoration: none; color: #fff;}
+li a:hover{ cursor: pointer;color: #fff;text-decoration: none;}
+.right ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .right ul li {
+  margin-right: 0 !important;
+} */
+span{
+    margin-left: 10px;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.top-contact{
+    margin-top: 10px;
+   
+}
+.top-contact i {
+    color: var(--mainblue);
+    float: left;
+    margin-right:10px;
+    font-size: 40px;
+    margin-top: 11px ;
+}
+
+/* logo section */
+.logo{
+    /* background-color: var(--mainblue); */
+}
+
+
+nav{
+    background: var(--mainblue);
+    height: 9vh;
+    padding-top: 13px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+nav li a{
+   text-transform: capitalize;
+   padding-right: 30px;
+    }
+.banner{
+    height: 70vh;
+    /* background-image: url(); */
+}
+.banner h3{
+    text-align: center;
+    margin-top: 30vh;
+}
+.h1{
+    height: 25vh;
+    color: white;
+    background:var(--mainblue) ;
+  padding-top: 2.1ch;
+}
+
+
+
+.cards{
+    /* background:whitesmoke; */
+    margin-top: 20px;
+}
+/* .card {
+    /* margin-left: 30px; */
+    /* padding: 10px; */
+
+} */
+/* .card img{
+    align-items: center;
+    padding-left: 250px;
+} */
+.card1{
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.news h3{
+    font-size: larger;
+    padding-bottom: 10px;
+    /* padding-top: 20px; */
+}
+.news p{
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+
+ 
+.post-slide{
+    padding: 0 15px;
+}
+.post-slide .post-img{
+    overflow: hidden;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.9;
+    transform: scale(1,1);
+    transition:all 0.3s ease-in-out 0s;
+}
+.post-slide:hover .post-img img{
+    transform: scale(1.2,1.2);
+    filter:none;
+    opacity:1;
+}
+.post-slide .post-content{
+    padding: 20px 30px;
+    position: relative;
+    background: #fff;
+}
+.post-slide .post-date{
+    min-width:28px;
+    min-height:28px;
+    line-height: 28px;
+    text-align: center;
+    background: #556677;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.post-slide .month{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px;
+    background: #14bf9b;;
+    text-transform: uppercase;
+}
+.post-slide .date{
+    color: #fff;
+    font-size: 14px;
+}
+.post-slide .post-title{
+    margin: 20px 0;
+}
+.post-slide .post-title a{
+    color:#14bf9b;
+    font-size:22px;
+    text-transform:capitalize;
+    transition: all 0.50s ease 0s;
+}
+.post-slide .post-title a:hover{
+    color:#333;
+    text-decoration: none;
+}
+.post-slide .post-description{
+    color: #999;
+    font-size: 16px;
+    line-height: 30px;
+}
+.post-slide .post-bar{
+    padding: 15px 0;
+    list-style: none;
+    text-align: center;
+    background: #14bf9b;
+}
+.post-slide .post-bar li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.post-slide .post-bar li a{
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff;
+    transition:0.2s ease;
+}
+.post-slide .post-bar li a:hover{
+    text-decoration: none;
+    color:#333;
+}
+.post-slide .post-bar li i{
+    color:#fff;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+footer{
+    background-color: var(--footerblue);
+    color: white;
+  padding-top: 20px;
+}
+.plane{
+    border: 1px solid black;
+}
